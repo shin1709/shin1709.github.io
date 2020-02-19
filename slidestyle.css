@@ -1,0 +1,331 @@
+ {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* ----- ヘッダー部 ----- */
+header{
+  background-color: #D7E6EF; /*背景色を色の値#D7E6EFで設定する*/
+  color: red; /*文字色を白にする*/
+  width: 100%; /*要素の表示をWebブラウザの横幅いっぱいにする*/
+  background: linear-gradient(135deg, orange, orange 60%, cyan);
+}
+header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* ----- 文章部 ----- */
+article{
+  /*背景色を色の値#D7E6EFで設定する*/
+  background-color: #D7E6EF;
+  color: white; /*文字色を白にする*/
+   width: 100%; /*要素の表示をWebブラウザの横幅いっぱいにする*/
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+article h2 {
+    font-size: 2em;
+     text-align: center;
+     margin-bottom: 20px;
+}
+article p {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+article table {
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   /* tableの枠線を一重線 */
+   border-collapse: collapse;
+  /* tableの枠線をsolid(実線)で、太さ1pxで、色blackで枠線を描く */
+   border:solid 1px black;
+   margin-bottom: 20px;
+}
+article table th {
+  /* セルの文字列と枠線との空白を10pxにする */
+   padding: 10px;
+ /* 枠線をsolid(実線)で、太さ1pxで、色blackで枠線を描く */
+   border:solid 1px black;
+}
+article table td {
+  /* セルの文字列と枠線との空白を10pxにする */
+   padding: 10px;
+ /* 枠線をsolid(実線)で、太さ1pxで、色blackで枠線を描く */
+   border:solid 1px black;
+}
+article table caption {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*文章部のHTMLフォーム*/
+article form ul {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+/*文章部のh3要素*/
+article h3{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size:1.5em;
+}
+
+/*文章部のul要素*/
+article ul{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+/* ----- フッター部 ----- */
+footer{
+  background-color: #D7E6EF; /*背景色を色の値#D7E6EFで設定する*/
+  color: blue; /*文字色を白にする*/
+  width: 100%; /*要素の表示をWebブラウザの横幅いっぱいにする*/
+}
+footer ul {
+  text-align: right;
+  list-style: none;
+  font-size: smaller;
+  padding: 5px;
+}
+/* ----- クラスセレクタ ----- */
+.headingLarge{
+  font-size: 3em; /* 文字サイズ3倍 */
+  text-align: center; /* 中央寄せ */
+  padding: 20px; /* 枠線の内側の余白20px */
+}
+.partLarge {
+  font-size: 2em;
+  color: #2D4059;
+  background-color: transparent;
+}
+.txtKeyword {
+  color: #2D4059;
+  background-color: transparent;
+}
+header nav ol li {
+  display: inline-block;
+  padding: 10px;
+}
+header nav {
+  text-align: center;
+  color: #2D4059;
+  background-color: transparent;
+  border-top: solid 1px #2D4059;
+  border-bottom: solid 1px #2D4059;
+}
+/* ----- クラスセレクタ ----- */
+/*送信ボタン*/
+.submitbtn {
+  width:150px;
+ height:30px;
+ border: solid 1px gray;
+ background: linear-gradient(lightgray, gray);
+}
+/*セルフチェック*/
+.selfcheck {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.selfcheck th,td {
+  border: solid 1px black;
+  padding: 5px;
+}
+.no {
+  color: black;
+  background-color: lightpink;
+}
+.yes {
+  color: black;
+  background-color: #fffff0;
+}
+/* モーダル部分のCSS*/
+.login-modal-wrapper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 100;
+        display: none;
+  }
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#signup-form, #login-form {
+  width: 100%;
+}
+
+#signup-form h2, #login-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input, #login-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h5 {
+  font-weight: normal;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    color: white;
+}
+
+.text-contents {
+   margin: 3% auto;
+   width: 80%;
+   font-size: 12px;
+   color: #b3aeb5;
+/* displayプロパティをnoneにしてください */
+  display: none;
+
+  }
+  .text-active {
+    display: block;
+  }
+  .btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 12px 80px;
+    background-color: #5dca88;
+    box-shadow: 0px 5px #279C56;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .btn:active {
+      position: relative;
+    　 top: 5px;
+      box-shadow: none;
+  }
+  .language-text {
+  display: none;
+}
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-title {
+  color: #555;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/*-------  ここからstamp  --------*/
+.stamps-section {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#stamps > .container {
+  width: 936px;
+}
+
+.stamp-box {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.stamp-image {
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+  padding: 0px;
+}
+
+#stamp-carousel img {
+  display: inline-block;
+}
+
+#stamp-carousel li {
+  background-color: #869791;
+}
+.carousel-indicators {
+  z-index: 5;
+}
+
+.stamp-link {
+  color: #5983ff;
+}
+
+/*-------  ここまでstamp  --------*/
