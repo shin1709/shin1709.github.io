@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="./css/slidestyle.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="./quizscript.js"></script>
+    <meta charset="utf-8">
+    <title>クイズ</title>
+  </head>
+  <body onload="autoCount()">
+    <!-- ここからヘッダー部分 -->
+    <header>
+      <p><img src="./seo.png" alt="ここに画像が表示されないときの文字" width="50"></p>
+      <h1 class="headingLarge">コンピューター<span class="partLarge">ウイルス</span>について</h1>
+      <!-- ここからナビゲーション部分 -->
+      <nav>
+        <ol>
+         <li><a href="index.html">トップページ</a></li>
+         <li><a href="199s2440page2.html">コンピューターウイルスの種類</a></li>
+         <li><a href="199s2440page3.html">対策</a></li>
+         <li><a href="199s2440page4.html">感染したら</a></li>
+         <li>クイズ</li>
+         <li><a href="199s2440selfcheck.html">セルフチェック</a></li>
+       </ol>
+      </nav>
+<!-- ここまでがナビゲーション部分 -->
+    </header>
+    <!-- ここまでがヘッダー部分 -->
+    <!-- ここから文章エリア -->
+    <article>
+      <h2>クイズ「プレゼンテーションが伝わったか」</h2>
+    </article>
+    <!-- ここまでが文章エリア -->
+    <form id="quizForm">
+      <p>[問1](5点)<br>トロイの木馬について正しいものは次のうちどれか</p>
+  <ul>
+    <li>
+    <label><input type="radio" name="radios1" value="q1choice1">プログラム実行型ファイルに寄生・増殖 するウイルス。感染すると画
+面の至る所に邪魔なアイコンが表示されたりする。</label>
+   </li>
+   <li>
+   <label><input type="radio" name="radios1" value="q1choice2">悪意のあるプログラムではないように見せかけ、気づかないうちにデー
+タを破壊したり流出させたりする。 単独で動作可能 。</label>
+  </li>
+  <li>
+   <label><input type="radio" name="radios1" value="q1choice3">メールや USB メモリなどから感染し、 自己増殖 するウイルス。感染力
+が強いことが特徴。</label>
+  </li>
+  <li>
+   <label><input type="radio" name="radios1" value="q1choice4">木で作られたおもちゃの馬</label>
+  </li>
+  </ul>
+  <p>[問2](5点)<br>感染しないようにするための対策として間違っているものはどれか</p>
+  <ul>
+    <li>
+    <label><input type="radio" name="radios2" value="q2choice1">ソフトウェアを常に最新の状態にする</label>
+   </li>
+   <li>
+   <label><input type="radio" name="radios2" value="q2choice2">ソフトウェアを更新しない</label>
+  </li>
+  <li>
+   <label><input type="radio" name="radios2" value="q2choice3">ウイルス対策ソフトを入れる</label>
+  </li>
+    <li>
+      <label><input type="radio" name="radios2" value="q2choice4">危険なサイトにアクセスしない</label>
+    </li>
+  </ul>
+  <p><input class="submitbtn" type="button" value="解答送信" onclick="checkAnswer()"></p>
+  <!-- <p onclick="autoCount()" id="numCountDown">10</p> -->
+   <p id="numCountDown">30</p>
+   <p id="quizReport">ここに結果を表示</p>
+</form>
+<!-- ここからフッター部分 -->
+    <footer>
+      <ul>
+       <li>妹尾慎一郎(<a href="http://www.sci.kumamoto-u.ac.jp/index-j.html">理学部</a>)</li>
+      <li>情報基礎B</li>
+      <li>クイズ</li>
+      </ul>
+    </footer>
+    <!-- ここまでがフッター部分 -->
+  </body>
+</html>

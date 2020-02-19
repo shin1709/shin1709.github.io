@@ -1,0 +1,25 @@
+/*h1要素にスタイルを設定する*/
+h1 {
+  /*文字の大きさをh1文字の大きさの3倍にする*/
+  font-size: 3em;
+  /*中央寄せ*/
+  text-align: center;
+  /*文字に影をつける 影をx方向に5pxずらす y方向に-5pxずらす ぼかしの半径を4px 影の色をgray */
+    text-shadow: 5px -5px 4px gray;
+}
+/*p要素にスタイルを設定する*/
+p {
+  box-shadow: 10px 5px 5px red;
+  /*要素の下に50ピクセル(pixel)の空白*/
+ margin-bottom: 50px;
+  /*一行目のインデント幅を1文字に*/
+ text-indent:1em;
+  /*solid(実践)で太さ1pxで、黒色(black)で枠線を描く*/
+  border: solid 1px black;
+  /*境界線から内側に上下左右に10pxの空白をつくる*/
+  padding: 10px;
+}
+.txtLarge {
+  /*文字サイズを通常の3倍*/
+  font-size: 3em;
+}

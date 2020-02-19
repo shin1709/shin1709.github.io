@@ -1,0 +1,41 @@
+/*h1要素にスタイルを設定する*/
+h1 {
+  /*文字の大きさをh1文字の大きさの3倍にする*/
+  font-size: 3em;
+  /*中央寄せ*/
+  text-align: center;
+  /*文字に影をつける 影をx方向に5pxずらす y方向に-5pxずらす ぼかしの半径を4px 影の色をgray */
+  text-shadow: 5px -5px 4px gray;
+}
+
+/*p要素にスタイルを設定する*/
+p {
+  /*一行目のインデント幅を1文字に*/
+  text-indent:1em;
+  /*solidで太さ1pxで、色#000で境界線を描く*/
+  /*border: solid 1px #000;*/
+  border: solid 1px black;
+  /*境界線から内側に上下左右に10pxの空白をつくる*/
+  padding: 10px;
+  /*p要素の下に20pxの余白をとる*/
+  margin-bottom: 50px;
+  /*枠線に影をつける（影をx方向に5pxずらす、y方向に-5pxずらす、ぼかしの半径を4px、影の色をgrayにする）*/
+  box-shadow: 5px -5px 4px gray;
+}
+
+.txtLarge {
+  /*文字サイズを通常の3倍*/
+  font-size: 3em;
+}
+
+.imgArea {
+  height: 150px;
+  width: 300px;
+  border: dashed 1px gray;
+}
+
+/* jumpUpDown の初期値 */
+#updown {
+  position:relative;
+  bottom: 0px;
+}
