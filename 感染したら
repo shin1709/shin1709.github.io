@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="./css/slidestyle.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>感染したら</title>
+  </head>
+  <body>
+    <!-- ここからヘッダー部分 -->
+    <header>
+      <p><img src="./seo.png" alt="ここに画像が表示されないときの文字" width="50"></p>
+      <h1 class="headingLarge">コンピューター<span class="partLarge">ウイルス</span>について</h1>
+      <!-- ここからナビゲーション部分 -->
+      <nav>
+        <ol>
+         <li><a href="index.html">トップページ</a></li>
+         <li><a href="199s2440page2.html">コンピューターウイルスの種類</a></li>
+         <li><a href="199s2440page3.html">対策</a></li>
+         <li>感染したら</li>
+         <li><a href="./199s2440quiz.html">クイズ</a></li>
+         <li><a href="199s2440selfcheck.html">セルフチェック</a></li>
+       </ol>
+      </nav>
+<!-- ここまでがナビゲーション部分 -->
+    </header>
+    <!-- ここまでがヘッダー部分 -->
+    <!-- ここから文章エリア -->
+    <article>
+      <div id="language-wrapper">
+   <h2 class="language-title">感染したら</h2>
+   <p class="language-text">
+     LAN ケーブルを抜きインターネットにつなげないようにする
+     ウイルス対策ソフトを使いウイルスを除去する
+   </p>
+ </div>
+
+
+    </article>
+    <!-- ここまでが文章エリア -->
+<!-- ここからフッター部分 -->
+    <footer>
+      <ul>
+       <li>妹尾慎一郎(<a href="http://www.sci.kumamoto-u.ac.jp/index-j.html">理学部</a>)</li>
+      <li>情報基礎B</li>
+      <li>感染したら</li>
+      </ul>
+    </footer>
+    <!-- ここまでがフッター部分 -->
+    <script src="script.js"></script>
+  </body>
+</html>
