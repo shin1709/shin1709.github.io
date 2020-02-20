@@ -93,6 +93,11 @@ article ul{
   margin-bottom: 20px;
   padding-left: 40px;
 }
+div{
+  background-color: #D7E6EF; /*背景色を色の値#D7E6EFで設定する*/
+  color: red; /*文字色を白にする*/
+  width: 100%; /*要素の表示をWebブラウザの横幅いっぱいにする*/
+}
 /* ----- フッター部 ----- */
 footer{
   background-color: #D7E6EF; /*背景色を色の値#D7E6EFで設定する*/
