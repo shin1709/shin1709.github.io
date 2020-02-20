@@ -99,7 +99,7 @@ div{
   width: 100%; /*要素の表示をWebブラウザの横幅いっぱいにする*/
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient: #D7E6EF;
+  background: linear-gradient(135deg, blue, blue 60%, cyan);
 }
 /* ----- フッター部 ----- */
 footer{
