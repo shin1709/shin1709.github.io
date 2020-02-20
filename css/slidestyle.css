@@ -97,6 +97,9 @@ div{
   background-color: #D7E6EF; /*背景色を色の値#D7E6EFで設定する*/
   color: red; /*文字色を白にする*/
   width: 100%; /*要素の表示をWebブラウザの横幅いっぱいにする*/
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient: #D7E6EF;
 }
 /* ----- フッター部 ----- */
 footer{
