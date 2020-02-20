@@ -15,6 +15,14 @@ header img {
   top: 0;
   right: 0;
 }
+#headimg {
+  height: 300px;
+  overflow: hidden;
+}
+
+#headimg img {
+  margin-top: -150px;
+}
 /* ----- 文章部 ----- */
 article{
   /*背景色を色の値#D7E6EFで設定する*/
@@ -329,3 +337,25 @@ header nav {
 }
 
 /*-------  ここまでstamp  --------*/
+@media screen and (max-width: 979px) {
+  #logo img {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 979px) {
+  #headimg {
+    height: auto;
+  }
+  #headimg img {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 979px) {
+  body {
+    margin: 0;
+  }
+}
