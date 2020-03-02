@@ -96,7 +96,7 @@ article ul{
 div{
   background-color: #FFFFFF; /*背景色を色の値#D7E6EFで設定する*/
   color: black; /*文字色を白にする*/
-  width:380; /*要素の表示をWebブラウザの横幅いっぱいにする*/
+  width:380px; /*要素の表示をWebブラウザの横幅いっぱいにする*/
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(white);
